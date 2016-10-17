@@ -6,8 +6,8 @@ var response = require('net/http/response');
 
 var datasource = database.getDatasource();
 
-response.setContentType("application/json; charset=UTF-8");
-response.setCharacterEncoding("UTF-8");
+response.setContentType('application/json; charset=UTF-8');
+response.setCharacterEncoding('UTF-8');
 
 var count;
 var connection = datasource.getConnection();
